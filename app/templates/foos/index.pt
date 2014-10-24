@@ -1,0 +1,11 @@
+<ul>
+  <li tal:repeat="foo foos">
+    <p>name: ${foo.name}</p>
+    <p>body: ${foo.body}</p>
+    <form action="/foos/${foo.id}/destroy" method="post" style="display:inine">
+      <button type="submit">DELETE</button>
+    </form>
+    <a href="/foos/${foo.id}/edit">EDIT</a>
+  </li>
+</ul>
+<a href="/foos/new">create a foo</a>

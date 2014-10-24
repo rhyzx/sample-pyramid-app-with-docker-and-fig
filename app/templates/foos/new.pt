@@ -1,0 +1,13 @@
+<form action="/foos/create" method="post">
+  <div>
+    <label for="">name</label>
+    <input type="text" name="name">
+  </div>
+  <div>
+    <label for="">body</label>
+    <input type="text" name="body">
+  </div>
+  <div>
+    <button type="submit">GO</button>
+  </div>
+</form>

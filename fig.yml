@@ -1,0 +1,11 @@
+db:
+  image: postgres
+web:
+  build: .
+  command: bash start.sh
+  volumes:
+    - .:/app
+  ports:
+    - "6543:6543"
+  links:
+    - db

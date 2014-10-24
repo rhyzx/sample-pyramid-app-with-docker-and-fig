@@ -1,0 +1,9 @@
+<div>Name: ${foo.name}</div>
+<div>Body: ${foo.body}</div>
+
+
+<form action="/foos/${foo.id}/destroy" method="post" style="display:inine">
+  <button type="submit">DELETE</button>
+</form>
+<a href="/foos/${foo.id}/edit">EDIT</a>
+<a href="/foos">BACK</a>

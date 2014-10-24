@@ -1,0 +1,13 @@
+<form action="/foos/${foo.id}/update" method="post">
+  <div>
+    <label for="">name</label>
+    <input type="text" name="name" value="${foo.name}">
+  </div>
+  <div>
+    <label for="">body</label>
+    <input type="text" name="body" value="${foo.body}">
+  </div>
+  <div>
+    <button type="submit">GO</button>
+  </div>
+</form>
