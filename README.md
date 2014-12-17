@@ -10,9 +10,5 @@
 ## Tips
 
 - `fig build` to update container after changed `requirements.txt` or `Dockerfile`
+- `fig run app bash` to open a shell
 - `fig rm` to clear database
-
-
-# LOG
-* pyramid does not support nested form `<input name="item[name]">`
-* alchemy does not support massive assign? `Foo(dict)`

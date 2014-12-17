@@ -1,6 +1,6 @@
 db:
   image: postgres
-web:
+app:
   build: .
   command: bash start.sh
   volumes:
